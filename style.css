@@ -1,0 +1,61 @@
+html {
+    color: #0091EA;
+}
+
+body {
+    background-color: #181616;
+}
+
+li {
+    font-size: 1.5rem;
+    max-width: 10px;
+}
+
+.container {
+    height: 70vh;
+    background-color: #424242;
+    box-shadow: #d4d8d4 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.innercontainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topheading {
+    text-align: center;
+    margin-block: 5px;
+    height: 60px;
+}
+
+.tasksection h1 {
+    margin-block: 5px;
+}
+
+#task {
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 15px;
+    margin-block: 10px;
+}
+
+#submit {
+    padding: 10px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 15px;
+    margin-block: 10px;
+    background-color: #0091EA;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #0091EA;
+    width: 100%;
+    height: 5px;
+    z-index: 9;
+}
